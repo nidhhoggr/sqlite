@@ -13,7 +13,7 @@ import (
 )
 
 // modernc.org/sqlite
-db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.Config{})
+db, err := gorm.Open(sqlite.Open("gorm.db"), &gorm.config{})
 ```
 
 Checkout [https://gorm.io](https://gorm.io) for details.

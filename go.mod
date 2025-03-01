@@ -1,6 +1,8 @@
-module github.com/joe-at-startupmedia/sqlite
+module github.com/nidhhoggr/sqlite
 
-go 1.21
+go 1.23
+
+toolchain go1.23.6
 
 require (
 	github.com/stretchr/testify v1.9.0
