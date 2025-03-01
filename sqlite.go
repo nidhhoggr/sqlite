@@ -17,7 +17,7 @@ import (
 	"gorm.io/gorm/schema"
 )
 
-const Version string = "0.0.1"
+const Version string = "0.0.2"
 
 // DriverName is the default driver name for SQLite.
 const DriverName = "sqlite"
